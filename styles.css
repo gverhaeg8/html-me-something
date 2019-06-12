@@ -1,96 +1,51 @@
-body {
-	width: 100%;
-	max-width: 1024px;
-	margin: 0 auto;
-	background-color: #999;
-	font-size: 62.5%;
+.name{
+    font-size: 60px;
+    padding: 0;
+    text-align: center;
 }
-
-header,
-main,
-footer {
-	background-color: #ddd;
-	font-size: 1.6em;
+p{
+    font-family: Georgia;
+    font-size: 20px;
 }
-
-header {
-	padding: 1.875em 0;
+#extra, h2{
+    text-transform: capitalize;
 }
-
-header h1 {
-	text-align: center;
+.name, h2, #extra{
+    font-weight: bold;
 }
-
-h1, h2, h3 {
-	margin: 0;
+h2, #extra{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 40px;
 }
-
-h1 {
-	font-size: 2.5em;
+#extra{
+    text-align: center;
 }
-
-main h2 {
-	padding: 0.625em 0 0.625em 0.625em;
-}
-
-section {
-	margin: 1.875em 0;
-}
-
-section:first-child {
-	margin-top: 0;
-}
-
-section:last-child {
-	margin-bottom: 0;
-}
-
-nav ul {
-	text-align: center;
-	padding: 0;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 1em;
-	font-size: 0.75em;
-}
-
-p {
-	padding: 1.25em;
-}
-
 figure {
-	margin: 0;
-	padding: 0;
-	text-align: center;
+    text-align: center;
 }
-
-figcaption {
-	font-style: italic;
-}
-
-footer {
-	text-align: center;
-	padding: 3em;
-}
-
-footer p {
-	display: inline-block;
-}
-
 img {
-	width: 100%;
-	max-width: 100%;
+    width: 640px;
 }
-
-@media screen and (max-width: 680px) {
-	nav ul li {
-		margin: 1em 0;
-		display: block;
-		font-size: 1em;
-	}
-	body {
-		font-size: 50%;
-	}
+figcaption{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin: 0 1em;
+}
+html {
+    background-color: blueviolet;
+}
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    background-color: white;
+}
+main {
+    margin: 1em;
 }
